@@ -5,16 +5,21 @@
 
    ```bash
    git clone https://github.com/duaa-abushaala/secureNotes.git
-
-2. **Install Dependencies:**
    cd secureNotes
+
+2. **Install backend dependencies and start the server:**
+   cd backend
    npm install
+   npm start
 
-3. **Start Server:**
-     npm start
+3. **Open a new terminal, then install frontend dependencies and start it:**
+   cd frontend
+   npm install
+   npm start
 
-### Running Tests
-  npm test
+4. **To run backend tests:**
+   cd backend
+   npm test
 
 ## Trade-offs and Future Improvements
 
